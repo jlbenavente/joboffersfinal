@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @joboffer.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @joboffer.description %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @joboffer.image1 %>
+</p>
+
+<p>
+  <strong>Budget:</strong>
+  <%= @joboffer.budget %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @joboffer.region %>
+</p>
+
+<p>
+  <strong>Commune:</strong>
+  <%= @joboffer.commune %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @joboffer.city %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @joboffer.user %>
+</p>
+
+<p>
+  <strong>Skill:</strong>
+  <%= @joboffer.skill %>
+</p>
+
+<%= link_to 'Edit', edit_joboffer_path(@joboffer) %> |
+<%= link_to 'Back', joboffers_path %>

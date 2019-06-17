@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @city.name %>
+</p>
+
+<p>
+  <strong>Display in index:</strong>
+  <%= @city.display_in_index %>
+</p>
+
+<%= link_to 'Edit', edit_city_path(@city) %> |
+<%= link_to 'Back', cities_path %>

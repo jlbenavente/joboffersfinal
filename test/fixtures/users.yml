@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  last_name: MyString
+  description: MyText
+  region: one
+  commune: one
+  city: one
+  skill: one
+  score: 1
+
+two:
+  name: MyString
+  last_name: MyString
+  description: MyText
+  region: two
+  commune: two
+  city: two
+  skill: two
+  score: 1

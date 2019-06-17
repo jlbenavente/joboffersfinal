@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  image: MyString
+  budget: 1
+  region: one
+  commune: one
+  city: one
+  user: one
+  skill: one
+
+two:
+  title: MyString
+  description: MyText
+  image: MyString
+  budget: 1
+  region: two
+  commune: two
+  city: two
+  user: two
+  skill: two
